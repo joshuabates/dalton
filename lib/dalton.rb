@@ -12,10 +12,6 @@ end
 
 load_dir = Pathname.new(__FILE__).dirname
 load load_dir.join('dalton/utility.rb')
-
-load load_dir.join('dalton/datomization.rb')
-load load_dir.join('dalton/undatomization.rb')
-
 load load_dir.join('dalton/exception.rb')
 load load_dir.join('dalton/database.rb')
 load load_dir.join('dalton/connection.rb')

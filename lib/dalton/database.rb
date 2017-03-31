@@ -2,8 +2,6 @@ module Dalton
 
   class Database
 
-    include Dalton::Undatomization
-
     def initialize(datomic_database_value)
       @datomic_db = datomic_database_value
     end

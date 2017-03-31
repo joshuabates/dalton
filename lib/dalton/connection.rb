@@ -4,8 +4,6 @@ java_import "datomic.Peer"
 module Dalton
   class Connection
 
-    include Dalton::Datomization
-
     def initialize(uri)
       @uri = uri
     end
